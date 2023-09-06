@@ -18,8 +18,9 @@
 		
 		<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-		<script src="./assets/maugallery.js"></script>
-		<script src="./assets/scripts.js"></script>
+		
+		<script src="./assets/maugallery.js" defer></script>
+		<script src="./assets/scripts.js" defer></script>
 	</head>
 
 	<body>
@@ -84,17 +85,18 @@
 				<h2 class="title">Portfolio</h2> <!-- Remplacement h3 par h2 -->
 				<div class="container py-3">
 					<div class="gallery" style="display: none">
-						<!-- Compression des photos -->
+						<!-- Compression et formatage des photos -->
 						<!-- Simplification du nommage des photos -->
-						<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul.webp" alt="Aaron Paul"/>
-						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou.webp" alt="Ali Morshedlou"/>
-						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman.webp" alt="Jason Goodman"/>
-						<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing.webp" alt="Hannah Busing"/>
-						<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji.webp" alt="Ade Tunji"/>
-						<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens.webp" alt="Jakob Owens"/>
-						<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg.webp" alt="Nino Van Prattenburg"/>
-						<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill.webp" alt="Asutin Neill"/>
-						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe.webp" alt="Mateus Campos Felipe"/>
+						<!-- Ajout des attribut alt + width + height -->
+						<img data-gallery-tag="Concert" class="gallery-item" width="440" height="440" src="./assets/images/gallery/concerts/aaron-paul.webp" alt="Aaron Paul"/>
+						<img data-gallery-tag="Entreprises" class="gallery-item" width="440" height="440" src="./assets/images/gallery/entreprise/ali-morshedlou.webp" alt="Ali Morshedlou"/>
+						<img data-gallery-tag="Entreprises" class="gallery-item" width="440" height="440" src="./assets/images/gallery/entreprise/jason-goodman.webp" alt="Jason Goodman"/>
+						<img data-gallery-tag="Mariages" class="gallery-item" width="440" height="440" src="./assets/images/gallery/mariage/hannah-busing.webp" alt="Hannah Busing"/>
+						<img data-gallery-tag="Portrait" class="gallery-item" width="440" height="440" src="./assets/images/gallery/portraits/ade-tunji.webp" alt="Ade Tunji"/>
+						<img data-gallery-tag="Mariages" class="gallery-item" width="440" height="440" src="./assets/images/gallery/mariage/jakob-owens.webp" alt="Jakob Owens"/>
+						<img data-gallery-tag="Portrait" class="gallery-item" width="440" height="440" src="./assets/images/gallery/portraits/nino-van-prattenburg.webp" alt="Nino Van Prattenburg"/>
+						<img data-gallery-tag="Concert" class="gallery-item" width="440" height="440" src="./assets/images/gallery/concerts/austin-neill.webp" alt="Asutin Neill"/>
+						<img data-gallery-tag="Entreprises" class="gallery-item" width="440" height="440" src="./assets/images/gallery/entreprise/mateus-campos-felipe.webp" alt="Mateus Campos Felipe"/>
 					</div>
 				</div>
 			</section>
