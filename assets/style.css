@@ -2,9 +2,12 @@ body {
 	max-width: 1920px;
 	margin: auto;
 }
-* {
-	font-family: 'Inter';
-	font-style: normal;
+* { /* Modif CSS effectuée */
+	font-family: "Inter", "arial", serif;
+  	font-style: normal;
+  	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
 }
 .top-header {
 	background-color: white;
